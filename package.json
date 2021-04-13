@@ -1,0 +1,26 @@
+{
+  "name": "pkgbytenodetest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "bytenode": "bytenode -c main.js",
+    "pkg": "pkg ./package.json"
+  },
+  "bin": "./main.load.js",
+  "pkg": {
+    "assets": [
+      "**/*.jsc"
+    ],
+    "targets": [
+      "node14-win-x64"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bytenode": "^1.2.2",
+    "pkg": "^4.5.1"
+  }
+}
